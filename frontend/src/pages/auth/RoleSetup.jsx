@@ -21,6 +21,8 @@
 //         <option value="">Select Role</option>
 //         <option value="donor">Donor</option>
 //         <option value="hospital">Hospital</option>
+//     
+//         <option value="admin">Admin</option>
 //       </select>
 //       <button onClick={handleSubmit}>Save</button>
 //     </div>

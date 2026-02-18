@@ -39,6 +39,7 @@ export default function Header({ currentUser }) {
         { name: "Login", path: "/login" },
         { name: "Register as Donor", path: "/register/donor" },
         { name: "Register as Facility", path: "/register/facility" },
+        { name: "Register as Admin", path: "/register/admin" },
       ];
 
   const isActiveLink = (path) => {
