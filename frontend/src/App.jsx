@@ -11,6 +11,7 @@ import DashboardLayout from "./components/layouts/DashboardLayout";
 import DonorProfile from "./pages/donor/DonorProfile";
 
 
+
 import AdminDashboard from "./pages/admin/AdminDashboard";
 import AdminFacilities from "./pages/admin/AdminFacilities";
 import HospitalDashboard from "./pages/hospital/HospitalDashboard";
@@ -38,6 +39,7 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/register/donor" element={<DonorRegister />} />
         <Route path="/register/facility" element={<FacilityForm />} />
+        <Route path="/admin/AdminDashboard" element={<AdminDashboard />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Signup />} />
         <Route path="/about" element={<About />} />
