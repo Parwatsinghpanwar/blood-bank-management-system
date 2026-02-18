@@ -40,7 +40,7 @@ export default function Login() {
 
   return (
     <form onSubmit={handleSubmit} className="p-4 flex flex-col gap-2">
-      <input name="email" type="email" placeholder="Email" onChange={handleChange} required />
+      <input name="email" type="email" placeholder="Enter your email" onChange={handleChange} required />
       <input name="password" type="password" placeholder="Password" onChange={handleChange} required />
       <button type="submit">Login</button>
     </form>

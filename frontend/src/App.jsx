@@ -1,5 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import Login from "./pages/auth/Login";
+import Signin from "./pages/auth/Signin";
+import Signup from "./pages/auth/Signup";
 import LandingPage from "./pages/Landing";
 import FacilityForm from "./pages/auth/FacultyRegister";
 import DonorRegister from "./pages/auth/DonorRegister";
@@ -36,6 +38,7 @@ function App() {
         <Route path="/register/donor" element={<DonorRegister />} />
         <Route path="/register/facility" element={<FacilityForm />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Signup />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
 

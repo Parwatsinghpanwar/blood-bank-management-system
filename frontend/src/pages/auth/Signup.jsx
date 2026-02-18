@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
-export default function Register() {
+export default function Signup() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -78,6 +78,7 @@ export default function Register() {
             >
               <option value="user">User</option>
               <option value="hospital">Hospital</option>
+              <option value="admin">Admin</option>
             </select>
           </div>
 
