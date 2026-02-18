@@ -38,8 +38,8 @@ export default function Header({ currentUser }) {
     : [
         { name: "Login", path: "/login" },
         { name: "Register as Donor", path: "/register/donor" },
-        { name: "Register as Facility", path: "/register/facility" },
-        { name: "Register as Admin", path: "/register/admin" },
+       
+        
       ];
 
   const isActiveLink = (path) => {
@@ -76,7 +76,7 @@ export default function Header({ currentUser }) {
                 {WEBSITE_NAME}
               </h1>
               <p className="text-xs text-gray-500 -mt-0.5 font-medium">
-                Blood Management System
+                Blood Sender
               </p>
             </div>
           </Link>
